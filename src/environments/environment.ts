@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  API: 'http://localhost:8080'
+  API_HOSTNAME: 'http://localhost:8080/talk',
+  API_LIST: 'http://localhost:8080/talk' + '/list',
+  API_SHUTDOWN: 'http://localhost:8080/talk' + '/shutdown'
 
 };
 
